@@ -1,4 +1,4 @@
-git commit -m "Feature added by Mia: [describe the feature]"
+/* Mia's CSS code starts */
 body{
     margin: 0;
     padding: 0;
@@ -464,9 +464,9 @@ nav ul li a:hover {
 }
 
 .banner-1{
-height: 1300px;   /* 容器高度为75% */
-width: 90%;   /* 容器宽度为100% */
-position: relative; /* 根据需要调整位置 */
+height: 1300px;  
+width: 90%;   
+position: relative; 
 overflow: hidden; 
 background-image: url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-13-iphone-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1723857138230);
 background-size: contain;
@@ -597,7 +597,7 @@ transform: translate(-50%, -50%)
     border: 1px solid black;
     background-color: aqua;
     border-radius: 10px;
-    position: relative; /* 添加此行，使banner具有相对定位 */
+    position: relative; 
     }
     .Heading h1{
         position: absolute;
@@ -629,19 +629,19 @@ transform: translate(-50%, -50%)
     .left-arrow {
         width: 3%;
         height: 9%;
-        left: 0; /* 修改此行，使left-arrow定位到banner的左侧 */
-        top: 50%; /* 调整垂直位置，使其居中 */
-        transform: translateY(-50%); /* 使用transform属性来居中对齐 */
-        position: absolute; /* 修改此行，使left-arrow相对于banner定位 */
+        left: 0; 
+        top: 50%;
+        transform: translateY(-50%); 
+        position: absolute; 
     }
 
     .right-arrow {
         width: 3%;
         height: 9%;
-        right: 0; /* 修改此行，使right-arrow定位到banner的右侧 */
-        top: 50%; /* 调整垂直位置，使其居中 */
-        transform: translateY(-50%); /* 使用transform属性来居中对齐 */
-        position: absolute; /* 修改此行，使right-arrow相对于banner定位 */
+        right: 0;
+        top: 50%; 
+        transform: translateY(-50%); 
+        position: absolute; 
     }
     /* list the items */
     .list-items{
@@ -651,7 +651,7 @@ transform: translate(-50%, -50%)
     margin-top: 30px;
     background-color: white;
     border-radius: 10px;
-    position: relative; /* 添加此行，使banner具有相对定位 */
+    position: relative;
     }
     
     .list-tittle{
